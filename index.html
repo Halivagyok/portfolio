@@ -6,9 +6,42 @@
     <title>Portfolió</title>
     <script src="main.js" defer></script>
     <script src="fetch.js"></script>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <div class="container">
+
+        <div class="navbar flex max-h-[60px] min-h-[40px] py-4 w-screen bg-gray-800 text-white text-xl ">
+            <div class="poty ml-6 mr-2 rounded-full w-[30px]  bg-teal-800"></div>
+            <div class=""> NZ</div>
+            <div class="flex justify-end w-full px-4">
+                <div class="about pr-1 pl-4">Rólam</div>
+                <div class="bg-teal-800 rounded-md w-[5px]"></div>
+                <div class="work pr-1 pl-4">Munkáim</div>
+                <div class="bg-teal-800 rounded-md w-[5px]"></div>
+                <div class="contact pr-1 pl-4">Kapcsolat</div>
+                <div class="bg-teal-800 rounded-md w-[5px]"></div>  
+            </div>
+        </div>
+
+        <div class="about flex justify-center mt-10 w-screen">
+            <div class="w-[60%] flex">
+                <img src="https://via.placeholder.com/150" alt="profil" class="rounded-full w-[150px] h-[150px]">
+                <div class="">
+                    <h1 class="text-4xl">Nemes Zalán</h1>
+                    <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+            </div>
+           
+        </div>
+
+        <div class="gombok flex justify-center mt-10 w-screen text-white">
+            <div class="bg-cyan-600 rounded-md px-4 mx-2 text-xl"><a href="#about">Rólam</a></div>
+            <div class="bg-cyan-600 rounded-md px-4 mx-2 text-xl"><a href="#work">Munkáim</a></div>
+            <div class="bg-cyan-600 rounded-md px-4 mx-2 text-xl"><a href="#kapcsolat">Kapcsolat</a></div>
+        </div>
+
+
+    </div>
 </body>
 </html>

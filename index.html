@@ -4,44 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolió</title>
+    <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
     <script src="fetch.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <div class="container">
-
-        <div class="navbar flex max-h-[60px] min-h-[40px] py-4 w-screen bg-gray-800 text-white text-xl ">
-            <div class="poty ml-6 mr-2 rounded-full w-[30px]  bg-teal-800"></div>
-            <div class=""> NZ</div>
-            <div class="flex justify-end w-full px-4">
-                <div class="about pr-1 pl-4">Rólam</div>
-                <div class="bg-teal-800 rounded-md w-[5px]"></div>
-                <div class="work pr-1 pl-4">Munkáim</div>
-                <div class="bg-teal-800 rounded-md w-[5px]"></div>
-                <div class="contact pr-1 pl-4">Kapcsolat</div>
-                <div class="bg-teal-800 rounded-md w-[5px]"></div>  
+        <div class="nav">
+            <div class="poty"></div>
+            <div class="monogramm"> NZ</div>
+            <div class="port">portfolió</div>
+            <div class="darab">
+                <div class="tovabb">Rólam</div>
+                <div class="vonal"></div>
+                <div class="tovabb">Munkáim</div>
+                <div class="vonal"></div>
+                <div class="tovabb">Kapcsolat</div>
+                <div class="vonal"></div>  
             </div>
         </div>
-
-        <div class="about flex justify-center mt-10 w-screen">
-            <div class="w-[60%] flex">
-                <img src="https://via.placeholder.com/150" alt="profil" class="rounded-full w-[150px] h-[150px]">
-                <div class="">
-                    <h1 class="text-4xl">Nemes Zalán</h1>
-                    <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        
+        <div class="about">
+            <div class="aboutinner">
+                <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.30808-1/450969503_1027532468897977_2285042154694825957_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=e99d92&_nc_ohc=2_qOd3QQbjAQ7kNvgEGhaz3&_nc_oc=Adk4rban7V7Rl4sflhZ7UIyD2RnuJVWjz3oLwfZGzvXVlPDd6R8srGQ5HrcEqUYRBZc&_nc_zt=24&_nc_ht=scontent-vie1-1.xx&_nc_gid=rDoyI-ClfMlj_fS6-MGaPQ&oh=00_AYHbd-Pi9oMpqzCBBxT7XyagoyMXFq8rtYqC6zWCfmFEBg&oe=67E728D7" alt="profil" class="profil">
+                <div class="leiras">
+                    <h1 class="">Nemes Zalán</h1>
+                    <p class="rolak">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                 </div>
             </div>
            
+            <div class="gombok">
+                <div class=""><a href="#about">Rólam</a></div>
+                <div class=""><a href="#work">Munkáim</a></div>
+                <div class=""><a href="#kapcsolat">Kapcsolat</a></div>
+            </div>
         </div>
 
-        <div class="gombok flex justify-center mt-10 w-screen text-white">
-            <div class="bg-cyan-600 rounded-md px-4 mx-2 text-xl"><a href="#about">Rólam</a></div>
-            <div class="bg-cyan-600 rounded-md px-4 mx-2 text-xl"><a href="#work">Munkáim</a></div>
-            <div class="bg-cyan-600 rounded-md px-4 mx-2 text-xl"><a href="#kapcsolat">Kapcsolat</a></div>
+        <div class="rolam" id="about">
+            <div class="rolaminner">
+                <h1>Rólam</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et tempus purus. Integer sagittis tortor sed metus consectetur, non iaculis ligula condimentum. Aenean dictum euismod sapien, eget congue diam venenatis sed. Nullam nisi mauris, molestie a consectetur eu, congue vitae ex. In magna diam, sollicitudin vitae felis blandit, dignissim dictum lectus. Curabitur sit amet ligula tempor, efficitur orci quis, fringilla leo. Aliquam eu scelerisque massa, in vehicula metus.
+                    Vestibulum vitae massa lobortis, viverra dui sit amet, fringilla sapien. Ut mattis at quam et congue. Sed blandit tellus sed dolor placerat, sed viverra est convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi facilisis risus eu erat dignissim gravida. Proin interdum lacus ut quam posuere mollis. Maecenas faucibus condimentum nunc, in rhoncus justo vestibulum vitae. Fusce magna nisl, cursus et fringilla ut, sodales id nibh. Duis tristique libero sit amet eros auctor, at tristique risus rhoncus. Nam non mi non ipsum commodo ultrices a eu eros. Proin dictum ex at semper tempus. Sed a est non massa elementum lobortis. Nam molestie neque augue, eu cursus nisl imperdiet in. Pellentesque a porta orci.
+                </p>
+            </div>
+        </div>
+
+        <div class="munka" id="work">
+            <h1>Munkáim</h1>
+            <div class="munkak">
+                
+            </div>
+        </div>
+    
+        <div class="kapcsolatok" id="kapcsolat">
+            <h1>Kapcsolatok</h1>
+            <div class="kapcont">
+                <div class="kapcsolat">
+                    <h2>Elérhetőségeink</h2>
+                    <p>akutyafajat@gmail.com</p>
+                    <p>+36 90 743 2213</p>
+                    <p>6000 Kecskemét</p>
+                </div>
+                <div class="kitolt">
+                    <h2>Kapcsolatartás</h2>
+                    <input type="text" placeholder="Vezetéknév(család név)" id="nev" class="csnev">
+                    <input type="text" placeholder="Keresztnév(utónév)"
+                    class="knev">
+                    <input type="email" placeholder="Email cím" class="email">
+                    <input type="tel" placeholder="Telefonszám" class="tel">
+                    <textarea placeholder="Megjegyzés" class="uzenet"></textarea>
+                    <button type="submit">Elküldés</button>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.2375434164583!2d19.685176675639873!3d46.91771153529542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da039cc46819%3A0x76e03484e50b2f33!2zS2Vjc2tlbcOpdGkgU1pDIEthbmTDsyBLw6FsbcOhbiBUZWNobmlrdW0!5e0!3m2!1shu!2shu!4v1742815575429!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
         </div>
 
 
+
+
+        </div>
     </div>
 </body>
 </html>

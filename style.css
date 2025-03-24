@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.nav{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(61, 81, 102);
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+.poty{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    border-radius: 99999px;
+    max-width: 25px;
+    max-height: 25px;
+    min-width: 25px;
+    max-width: 25px;
+    background-color: rgb(17 94 89);
+}
+
+.monogramm{
+    padding : 0.6rem;
+    font-size: 1.25rem;
+}
+
+.port{
+    margin-top: 0.9rem;
+    color: lightgray;
+}
+
+
+.darab{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.tovabb{
+    padding-right: 0.5rem;
+    padding-left: 1rem;
+    padding-top: 0.6rem;
+}
+
+.vonal{
+    background-color: rgb(17 94 89);
+    width: 8px;
+}
+
+.about{
+    background-color: slategray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+
+}   
+
+.aboutinner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 30px
+}
+
+.profil{
+    border-radius: 9999px;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.leiras{
+    padding: 1rem 2rem;
+}
+
+.leiras h1{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.leiras p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.gombok{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    color:white;
+}
+.gombok div{
+    display: flex;
+    background-color: rgb(17 94 89);
+    border-radius: 2rem;
+    padding: 0.5rem 4rem;
+    margin: 2rem 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem
+}
+
+.rolam{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding: 2px 0;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, teal, darkslategray);
+}
+
+.rolak{
+    padding: 10px 20px;
+}
+
+
+.rolaminner{
+    max-width: 800px;
+}
+
+.rolam h1{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin: 20px 10px;
+}
+
+.rolam p{
+    max-width: 800px;
+    min-width: none;
+    padding: 5px 10px ;
+    margin: 20px 30px;  
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+.munka h1{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding: 10px 20px;
+}
+
+.munkas{
+    min-width:600px ;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px 6px;
+    margin: 10px 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: darkslategray;
+    
+}   
+
+.munkas img{
+    border-radius: 30px;
+    margin: 20px 40px;
+}
+
+.munkas-side{
+    padding: 0 15px;
+    width: 40%;
+}
+.links{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.munkas-side p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-left: 10px;
+}
+
+.munkas-side a{
+    text-decoration: underline;
+    justify-content: end;
+    color: teal;
+}
+.munkas img{
+    max-width:50%;    
+    height: auto;
+    min-width: 600px
+}
+
+.kapcsolatok{
+    color: white;
+    background-color: darkslategray;
+    padding: 30px 0;
+    height: 100vh;
+}
+
+.kapcont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.kapcsolatok h1{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding: 10px 20px;
+}
+
+.kapcsolat p{
+    padding: 0 40px;
+}
+
+.kitolt{
+    margin: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    color : black;
+
+}
+
+.kitolt input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid teal;
+}
+
+.kitolt textarea{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid teal;
+}
+
+.kitolt button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+iframe{
+    width: 20%;
+}
+
+@media (max-width: 800px){
+    .port{
+        display: none;
+    }
+}

@@ -4,7 +4,9 @@ body{
     font-family: Arial, sans-serif;
 }
 
-
+.container{
+    overflow: hidden;
+}
 
 .nav{
     width: 100vw;
@@ -268,6 +270,7 @@ a{
 
 iframe{
     width: 20%;
+    min-width: 20%;
 }
 
 @media (max-width: 800px){

@@ -1,4 +1,4 @@
-url = "https://raw.githubusercontent.com/Flerzy/PortfolioJSON/refs/heads/main/data.json"
+url = "https://raw.githubusercontent.com/Halivagyok/portfolioJSON/refs/heads/master/data.json"
 
 function render(data){
     let munkak = document.querySelector(".munkak")
